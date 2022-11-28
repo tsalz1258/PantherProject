@@ -27,3 +27,6 @@ gcc -o panthercrypt panthercrypt.c $(libgcrypt-config --cflags --libs)
 
 There is also a -l choice for local decryption if needed.
 
+<img src = "Server.gif">
+<img src = "Client.gif">
+<img src = "results.gif">
