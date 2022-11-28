@@ -26,7 +26,9 @@ gcc -o panthercrypt panthercrypt.c $(libgcrypt-config --cflags --libs)
 ./panthercrypt [text file with information you want to send] -d [IP address of the server]:[port]  
 
 There is also a -l choice for local decryption if needed.
-
+Server Side:
 <img src = "Server.gif">
+Client Side:
 <img src = "Client.gif">
+Results:
 <img src = "results.gif">
